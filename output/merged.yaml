@@ -1,0 +1,13 @@
+port: 7890
+mode: rule
+proxies: []
+proxy-groups:
+- name: 🚀 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 120
+  tolerance: 20
+  proxies:
+  - 占位
+rules:
+- MATCH,🚀 自动选择
