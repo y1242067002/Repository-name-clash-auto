@@ -8,16 +8,7 @@ proxies:
   uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   alterId: 0
   cipher: auto
-  delay: 1.3728141784667969
-  quality: 1
-- name: github.com/freefq - 美国Fastly全球Anycast节点 13
-  type: vmess
-  server: gov.uk
-  port: 443
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  alterId: 0
-  cipher: auto
-  delay: 2.0384788513183594
+  delay: 2.421736717224121
   quality: 1
 - name: 美国 CloudFlare节点
   type: vmess
@@ -26,7 +17,16 @@ proxies:
   uuid: 0b4c4ed4-deed-4bda-ae3d-6c8ccd1d1199
   alterId: 0
   cipher: auto
-  delay: 5.042314529418945
+  delay: 16.162633895874023
+  quality: 1
+- name: github.com/freefq - 美国Fastly全球Anycast节点 13
+  type: vmess
+  server: gov.uk
+  port: 443
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  alterId: 0
+  cipher: auto
+  delay: 70.78766822814941
   quality: 1
 - name: vmess
   type: vmess
@@ -35,7 +35,7 @@ proxies:
   uuid: 8237ec34-143a-11ee-8019-000017022008
   alterId: 64
   cipher: auto
-  delay: 136.60836219787598
+  delay: 264.074444770813
   quality: 1
 - name: 亚太地区 V2CROSS.COM
   type: vmess
@@ -153,8 +153,8 @@ proxy-groups:
   tolerance: 20
   proxies:
   - github.com/freefq - 美国CloudFlare公司CDN节点 9
-  - github.com/freefq - 美国Fastly全球Anycast节点 13
   - 美国 CloudFlare节点
+  - github.com/freefq - 美国Fastly全球Anycast节点 13
   - vmess
   - 亚太地区 V2CROSS.COM
   - 亚太地区 V2CROSS.COM
