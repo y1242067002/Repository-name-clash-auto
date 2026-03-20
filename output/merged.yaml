@@ -8,16 +8,7 @@ proxies:
   uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   alterId: 0
   cipher: auto
-  delay: 5.5408477783203125
-  quality: 1
-- name: 英国 V2CROSS.COM
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  delay: 62.078118324279785
+  delay: 1.829981803894043
   quality: 1
 - name: github.com/freefq - 美国Fastly全球Anycast节点 13
   type: vmess
@@ -26,7 +17,25 @@ proxies:
   uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
   alterId: 0
   cipher: auto
-  delay: 107.67245292663574
+  delay: 2.852320671081543
+  quality: 1
+- name: 英国 V2CROSS.COM
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  delay: 8.850812911987305
+  quality: 1
+- name: 广东省广州市 电信
+  type: vmess
+  server: cn01.365cloud8754.com
+  port: 6001
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
+  alterId: 0
+  cipher: auto
+  delay: 64.54527378082275
   quality: 1
 - name: vmess
   type: vmess
@@ -35,35 +44,17 @@ proxies:
   uuid: 8237ec34-143a-11ee-8019-000017022008
   alterId: 64
   cipher: auto
-  delay: 264.0620470046997
+  delay: 234.73751544952393
   quality: 1
-- name: 甘肃省兰州市 移动
+- name: 日本 东京阿里云
   type: vmess
-  server: m.cnmjin.net
-  port: 16617
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  server: n1753598451.74qxv.top
+  port: 443
+  uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
   alterId: 0
   cipher: auto
-  delay: 272.59790897369385
+  delay: 370.77558040618896
   quality: 1
-- name: 亚太地区 V2CROSS.COM
-  type: vmess
-  server: 103.181.164.237
-  port: 34114
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  delay: 9999
-  quality: 0
-- name: 亚太地区 V2CROSS.COM
-  type: vmess
-  server: 103.181.164.145
-  port: 54022
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  delay: 9999
-  quality: 0
 - name: github.com/freefq - 印度  2
   type: vmess
   server: 202.78.162.5
@@ -144,12 +135,11 @@ proxy-groups:
   tolerance: 20
   proxies:
   - github.com/freefq - 美国CloudFlare公司CDN节点 9
-  - 英国 V2CROSS.COM
   - github.com/freefq - 美国Fastly全球Anycast节点 13
+  - 英国 V2CROSS.COM
+  - 广东省广州市 电信
   - vmess
-  - 甘肃省兰州市 移动
-  - 亚太地区 V2CROSS.COM
-  - 亚太地区 V2CROSS.COM
+  - 日本 东京阿里云
   - github.com/freefq - 印度  2
   - github.com/freefq - 美国CloudFlare公司CDN节点 4
   - github.com/freefq - 美国CloudFlare公司CDN节点 6
