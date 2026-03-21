@@ -8,7 +8,7 @@ proxies:
   uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   alterId: 0
   cipher: auto
-  delay: 5.660295486450195
+  delay: 2.5757551193237305
   quality: 1
 - name: github.com/freefq - 美国Fastly全球Anycast节点 13
   type: vmess
@@ -17,7 +17,7 @@ proxies:
   uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
   alterId: 0
   cipher: auto
-  delay: 6.727933883666992
+  delay: 4.928946495056152
   quality: 1
 - name: 美国 CloudFlare节点
   type: vmess
@@ -26,25 +26,16 @@ proxies:
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   alterId: 0
   cipher: auto
-  delay: 10.693669319152832
+  delay: 7.477879524230957
   quality: 1
 - name: 美国 CloudFlare节点
   type: vmess
-  server: sy4.620720.xyz
-  port: 443
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  server: zzrt.uhomdex.shop
+  port: 8443
+  uuid: edb3e961-0b28-4e52-8446-399f3ef03c08
   alterId: 0
   cipher: auto
-  delay: 17.16923713684082
-  quality: 1
-- name: 英国 V2CROSS.COM
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  delay: 66.72072410583496
+  delay: 9.335517883300781
   quality: 1
 - name: vmess
   type: vmess
@@ -53,17 +44,17 @@ proxies:
   uuid: 8237ec34-143a-11ee-8019-000017022008
   alterId: 64
   cipher: auto
-  delay: 154.72805500030518
+  delay: 240.48149585723877
   quality: 1
-- name: 伊朗 V2CROSS.COM
+- name: 中国 V2CROSS.COM
   type: vmess
   server: v12.hdacd.com
   port: 30812
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 0
   cipher: auto
-  delay: 321.76876068115234
-  quality: 1
+  delay: 9999
+  quality: 0
 - name: github.com/freefq - 印度  2
   type: vmess
   server: 202.78.162.5
@@ -147,9 +138,8 @@ proxy-groups:
   - github.com/freefq - 美国Fastly全球Anycast节点 13
   - 美国 CloudFlare节点
   - 美国 CloudFlare节点
-  - 英国 V2CROSS.COM
   - vmess
-  - 伊朗 V2CROSS.COM
+  - 中国 V2CROSS.COM
   - github.com/freefq - 印度  2
   - github.com/freefq - 美国CloudFlare公司CDN节点 4
   - github.com/freefq - 美国CloudFlare公司CDN节点 6
